@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <nav id = "header" class="navbar navbar-expand-lg navbar-light bg-light pl-4 bl-4 pt-4 pb-4">
+        <div class="container">
+
+            <a class="navbar-brand" href="#"><img src="img/LOGO FINAL YA VA-02.png" width="75px" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ml-auto nav-container">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Servicios</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Beneficios</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Enviar</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Equipo</a>
+                </li>
+                <li class="nav-item active contactenos">
+                    <a class="nav-link" href="#">Contactenos</a>
+                </li>
+            </ul>
+            </div>
+        </div>    
+      </nav>
+
+
+      <main id="main">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/hawaii.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item botones-carousel">
+                <img src="img/hawaii2.jpg" class="d-block w-100" alt="...">
+                <div class="overlay">
+                  <div class="overlay-container">
+                    <h1>¡Programa tus <br> entregas <br> hoy mismo!</h1>
+                    <button class="btn btn-yava btn-yava-pequeño">EMPEZAR</button>
+                  </div>
+                  <div class="overlay-container">
+                    <h1>Si ya tienes tu <br> código de seguimiento</h1>
+                    <button class="btn btn-yava">RASTREA TU <br> ENVIO AQUI</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </main>
+
+      <section id="archivos">
+        <div class="container mt-4 mb-4 pt-4 pb-4">
+          <div class="row">
+            <div id="primer-archivo" class="col-2 offset-2 pr-1 pl-0 abierto">
+              <div class="archivero pt-1 pb-1">
+                <a href="#" onclick="return mostrarArchivo1();"><h1 class="h6">EXPRESS</h1></a>
+              </div>
+            </div>
+            <div id="segundo-archivo" class="col-2 pr-1 pl-0">
+              <div class="archivero pt-1 pb-1">
+                <a href="" onclick="return mostrarArchivo2();"><h1 class="h6">PROGRAMADO</h1></a>
+              </div>
+            </div>
+            <div id="tercer-archivo" class="col-2 pr-1 pl-0">
+              <div class="archivero pt-1 pb-1">
+                <a href="" onclick="return mostrarArchivo3();"><h1 class="h6">MULTIPUNTO</h1></a>
+              </div>
+            </div>
+            <div id="cuarto-archivo" class="col-2 pr-1 pl-0" >
+              <div class="archivero pt-1 pb-1" >
+                <a href="" onclick="return mostrarArchivo4();"><h1 class="h6">E-COMMERCE</h1></a>
+              </div>
+            </div>
+            
+          </div>
+
+          <div id="primer-archivo-contenido" class="row">
+            <div class="col-8 offset-2 pt-4 pb-4 pl-4 pr-4 archivo">
+              <p class="pr-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio maxime veritatis fuga illum. Repellat illo nihil, ratione at nesciunt quasi, perspiciatis labore, placeat tempora dolores amet a fugiat excepturi ipsa!</p>
+              <div class="archivo-image-container">
+                <img src="img/hawaii.jpg" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div id="segundo-archivo-contenido" class="row" style="display: none;">
+            <div class="col-8 offset-2 pt-4 pb-4 pl-4 pr-4 archivo">
+              <p class="pr-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dicta iure non cum eveniet aperiam nostrum expedita exercitationem nihil magnam. Nobis, quia fugiat! Nihil veritatis atque deserunt magnam laudantium non!</p>
+              <div class="archivo-image-container">
+                <img src="img/alcohol.jpg" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div id="tercer-archivo-contenido" class="row" style="display: none;">
+            <div class="col-8 offset-2 pt-4 pb-4 pl-4 pr-4 archivo">
+              <p class="pr-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, unde accusantium? Dolorem, recusandae consequuntur at, possimus nobis tempore in eveniet error, hic atque praesentium et incidunt beatae voluptas est blanditiis.</p>
+              <div class="archivo-image-container">
+                <img src="img/moto.jpg" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div id="cuarto-archivo-contenido" class="row" style="display: none;">
+            <div class="col-8 offset-2 pt-4 pb-4 pl-4 pr-4 archivo">
+              <p class="pr-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolore dolores exercitationem vitae. Saepe, doloremque eligendi. Placeat corporis harum consectetur quasi quam eum quaerat rerum magnam sed ea. Voluptatum, iusto.</p>
+              <div class="archivo-image-container">
+                <img src="img/perro.jpg" alt="">
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+
+
+      <!-- Primeras ventajas -->
+      <section id="primeras-ventajas">
+        <div class="container pt-4 pb-4 mt-4 mb-4">
+          <div class="row">
+            <div class="col-5 pl-4 titulo-ventaja-container">
+              <h1 class="">Trabajamos <br> todos los días</h1>
+            </div>
+            <div class="col-2 iconos-ventaja-container">
+              <div class="ventaja1">
+                Tarifas Personalizadas
+              </div>
+              <div class="ventaja2">
+                Fechas de facturación 
+              </div>
+            </div>
+            <div class="col-5 ventaja-container">
+              <div class="texto-ventaja1">
+                Los precios van de acuerdo a tu negocio, volumen de pedidos, puntos de entrega.
+              </div>
+              <div class="texto-ventaja2">
+                Semanales quincenales, mensuales. Los planes de pago se acoplan a tu empresa
+              </div>
+            </div>  
+          </div>
+          <div class="row" style="height: 50px;">
+            <div class="col-2 offset-5" style="height: 30px; border-bottom: 1px solid skyblue;">
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Primera ventaja -->
+
+      <!-- Segunda ventaja -->
+      <section id="segunda-ventajas">
+        <div class="container pb-4 mb-4">
+          <div class="row">
+            <div class="col-2 iconos-ventaja-container">
+              <div class="ventaja1">
+                Tarifas Personalizadas
+              </div>
+              <div class="ventaja2">
+                Fechas de facturación 
+              </div>
+            </div>
+            <div class="col-5 ventaja-container">
+              <div class="texto-ventaja1">
+                Los precios van de acuerdo a tu negocio, volumen de pedidos, puntos de entrega.
+              </div>
+              <div class="texto-ventaja2">
+                Semanales quincenales, mensuales. Los planes de pago se acoplan a tu empresa
+              </div>
+            </div> 
+            <div class="col-5 pl-4 titulo-ventaja-container">
+              <h1 class="">Trabajamos <br> todos los días</h1>
+            </div> 
+          </div>
+          <div class="row" style="height: 50px;">
+            <div class="col-2 offset-5" style="height: 30px; border-bottom: 1px solid skyblue;">
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Segunda ventajas -->
+
+
+
+    <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
