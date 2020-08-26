@@ -17,10 +17,39 @@ a{
 }
 
 
-#main .carousel-inner img{
-    max-height: 75vh;
+#main .carousel img{
+    max-height: 80vh;
     object-fit: cover;
 }
+
+
+#prueba .carousel img{
+    max-height: 80vh;
+    object-fit: cover;
+}
+
+
+#beneficios {
+    margin-top: 2.5%;
+    height:50%;
+    width:100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#beneficio-imagen {
+    width: 80%;
+    height: 80%;
+    position: relative;
+}
+
+
+#carousel{
+    position: relative;
+}
+
 
 .botones-carousel{
     position: relative;
@@ -188,6 +217,12 @@ a{
 #segunda-ventajas .container .row{
     height: 300px;
 }
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
 
 
 /* 
