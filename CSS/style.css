@@ -1,32 +1,19 @@
-body{
-    font-family: 'Open Sans';
+a{
+    color: black;
+    text-decoration: none;
 }
 
 #header{
-    background-color: white;
+     background: white !important;
 }
 
-
-#header img{
-    width: 250px;
-    height: 60px;
+.nav-container li{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
-
-#header a{
-    color: black;
-    font-size: large;
-}
-
-
-.nav-container{
-    border: 1px solid #00d3da;
-}
-
-
-
 
 .contactenos{
-    border-right:1px solid #00d3da;
+    border-right:1px solid black ;
 }
 
 
@@ -241,7 +228,20 @@ body{
     width: 15px;
     height: 15px;
     border-radius: 50%;
-  }
+}
+
+#formularioYava form .form-row button{
+    background: #007E8A !important;
+}
+
+#formularioYava .container .row h2{
+    color: #007E8A !important;
+}
+
+#formularioYava .container .row form input{
+    border: 1px #007E8A solid;
+    font-size: 15px;
+}
 
 
 /* 
@@ -282,6 +282,29 @@ body{
 
 
 
+@media screen and (min-width: 1800px){
+    .programacion-banner-container h1{
+        font-size: 79px;
+        margin-bottom: 20px;
+    }
+
+    .rastreo-container h1{
+        font-size: 46px;
+        margin-bottom: 30px !important;
+    }
+
+    .rastreo-container p{
+        font-size: 34px;
+        text-align: center;
+        margin-bottom: 4px;
+    }
+
+    .rastreo .input-group input{
+        height: auto;
+        font-size: 34px;
+    }
+}
+
 
 
 @media screen and (max-width: 780px){
@@ -315,6 +338,8 @@ body{
     .programa-container{
         height: 50% !important;
     }
+
+    
     
     .rastreo-container{
         padding-top: 11px;
