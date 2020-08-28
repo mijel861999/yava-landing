@@ -4,12 +4,18 @@ a{
 }
 
 #header{
-     background: white !important;
+     background: white!important;
 }
 
-.nav-container li{
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+#header img{
+    width: 250px;
+    height: 80px;
+}
+
+
+.nav-container{
+    border: 1px solid skyblue;
+    
 }
 
 .contactenos{
@@ -29,22 +35,38 @@ a{
 }
 
 
-#beneficios {
+.beneficios {
     margin-top: 2.5%;
     height:50%;
-    width:100%;
+    width: 100%;
     overflow: hidden;
     position: relative;
     text-align: center;
     padding-bottom: 50px;
 }
 
-#beneficio-imagen {
+.beneficio-imagen {
     width: 80%;
     height: 80%;
     position: relative;
 }
 
+
+
+
+.beneficio {
+    height:50%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.beneficio-imagen {
+    width: 80%;
+    height: 80%;
+    position: relative;
+}
 
 #carousel{
     position: relative;
